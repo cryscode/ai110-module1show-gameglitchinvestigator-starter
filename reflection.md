@@ -53,6 +53,7 @@ Claude designed tests for each of the functions it corrected.
 ## 4. What did you learn about Streamlit and state?
 
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
+A rerun is when the application script runs from the top to bottom again and session state helps you store and remember variables across reruns.
 
 ---
 
@@ -60,5 +61,8 @@ Claude designed tests for each of the functions it corrected.
 
 - What is one habit or strategy from this project that you want to reuse in future labs or projects?
   - This could be a testing habit, a prompting strategy, or a way you used Git.
+I would ask AI for help with tests because it does a good job in generating robust and detailed tests.
 - What is one thing you would do differently next time you work with AI on a coding task?
+I would definitely ask for multiple things in one prompt as well as all related things in one prompt because it helps me stay organized.
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+While I know AI makes mistakes, the project showed that AI mistakes could be sillier than a human's code so we still need to be careful when using AI.
