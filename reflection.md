@@ -5,8 +5,13 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 ## 1. What was broken when you started?
 
 - What did the game look like the first time you ran it?
+I feel it looks like a very typical AI generated game.
 - List at least two concrete bugs you noticed at the start  
   (for example: "the hints were backwards").
+  The hints were misleading e.g the secret was 100 but the hint said go lower for 50
+  The New game button was not working and I had to reload to try again 
+  Normal difficulty has more attempts than easy but I feel it should be the other way around
+  The supposed ranges for the different difficulty levels aren't usec
 
 **Bug Reproduction Log**
 
@@ -14,10 +19,14 @@ Document at least 3 bugs you found. Add rows as needed.
 
 | Input | Expected Behavior | Actual Behavior | Console Output / Error |
 |-------|-------------------|-----------------|------------------------|
-| | | | |
-| | | | |
-| | | | |
-
+|guess  |"Go higher" hint   |"Go lower" hint  |"none"                  |
+|of 50  |                   |shown instead    |                        |
+|none   |Always start with 8|Starts with 7    |"none"                  |
+|       |attempts           |on first and 8 on|                        |
+|       |                   |second try       |                        |
+|none   |New game button    |New game button  |"Game over. Start a new |
+|       |resets history     |not working      | game to try again."    |
+|""     |"Enter a guess"    |Adds it to history| none until attempts run out|
 ---
 
 ## 2. How did you use AI as a teammate?
